@@ -1,0 +1,23 @@
+@use "base/variables" as v;
+
+.seccion {
+  padding: 5rem 0;
+  display: none;
+  .text-center {
+    text-align: center;
+  }
+
+  // &.oculto {
+  //   display: none;
+  // }
+}
+
+.mostrar {
+  display: block;
+  // visibility: visible;
+}
+
+.ocultar {
+  display: none;
+  // visibility: hidden;
+}
